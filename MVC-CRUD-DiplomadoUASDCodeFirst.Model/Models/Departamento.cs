@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace MVC_CRUD_DiplomadoUASDCodeFirst.Model.Models
 {
-    class Departamento
+    public class Departamento
     {
-        public int DepartamentooID { get; set; }
+        public int DepartamentoID { get; set; }
         public string Descripcion { get; set; }
-        public virtual ICollection<Registro> registros { get; set; }
+        public virtual ICollection<Registro> Registros { get; set; }
     }
 }

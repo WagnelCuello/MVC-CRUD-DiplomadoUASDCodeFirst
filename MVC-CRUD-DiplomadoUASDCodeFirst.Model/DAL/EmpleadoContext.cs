@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MVC_CRUD_DiplomadoUASDCodeFirst.Model.DAL
 {
-    public class EmpleadoContext
+    public class EmpleadoContext : DbContext
     {
         public EmpleadoContext() 
             : base("EmpleadoContext")

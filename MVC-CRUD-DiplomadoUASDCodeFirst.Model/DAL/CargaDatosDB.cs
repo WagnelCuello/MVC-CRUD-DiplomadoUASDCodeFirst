@@ -13,9 +13,9 @@ namespace MVC_CRUD_DiplomadoUASDCodeFirst.Model.DAL
         {
             var Departamentos = new List<Departamento>
             {
-                new Departamento{ DepartamentooID = 1, Descripcion = "Programación", },
-                new Departamento{ DepartamentooID = 2, Descripcion = "Recursos Humano", },
-                new Departamento{ DepartamentooID = 3, Descripcion = "Mercadeo", }
+                new Departamento{ DepartamentoID = 1, Descripcion = "Programación", },
+                new Departamento{ DepartamentoID = 2, Descripcion = "Recursos Humano", },
+                new Departamento{ DepartamentoID = 3, Descripcion = "Mercadeo", }
             };
             Departamentos.ForEach(s => context.Departamentos.Add(s));
             context.SaveChanges();

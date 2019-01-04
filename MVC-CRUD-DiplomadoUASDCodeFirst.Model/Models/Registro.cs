@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace MVC_CRUD_DiplomadoUASDCodeFirst.Model.Models
 {
-    class Registro
+    public class Registro
     {
         public int RegistroID { get; set; }
-        public Nullable<Decimal> Sueldo { get; set; }
+        public Nullable<decimal> Sueldo { get; set; }
         public int DepartamentoID { get; set; }
         public int EmpleadoID { get; set; }
 
