@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<MVC_CRUD_DiplomadoUASDCodeFirst.Model.Models.Empleado>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Mantenimiento de Empleados";
 }
 
-<h2>Index</h2>
+<h2>Mantenimiento de Empleados</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Nuevo Empleado", "Create")
 </p>
 <table class="table">
     <tr>
@@ -18,7 +18,7 @@
             @Html.DisplayNameFor(model => model.Apellidos)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Fecha_Ingreso)
+            Fecha de Ingreso @*@Html.DisplayNameFor(model => model.Fecha_Ingreso)*@
         </th>
         <th></th>
     </tr>
@@ -35,9 +35,9 @@
             @Html.DisplayFor(modelItem => item.Fecha_Ingreso)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.EmpleadoID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.EmpleadoID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.EmpleadoID })
+            @Html.ActionLink("Editar", "Edit", new { id=item.EmpleadoID }) |
+            @Html.ActionLink("Detalles", "Details", new { id=item.EmpleadoID }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id=item.EmpleadoID })
         </td>
     </tr>
 }

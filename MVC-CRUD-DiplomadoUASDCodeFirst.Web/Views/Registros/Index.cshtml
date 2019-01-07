@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<MVC_CRUD_DiplomadoUASDCodeFirst.Model.Models.Registro>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Registros";
 }
 
-<h2>Index</h2>
+<h2>Mantenimiento de Registros</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Nuevo Registro", "Create")
 </p>
 <table class="table">
     <tr>
@@ -35,9 +35,9 @@
             @Html.DisplayFor(modelItem => item.Sueldo)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.RegistroID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.RegistroID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.RegistroID })
+            @Html.ActionLink("Editar", "Edit", new { id=item.RegistroID }) |
+            @Html.ActionLink("Detalles", "Details", new { id=item.RegistroID }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id=item.RegistroID })
         </td>
     </tr>
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace MVC_CRUD_DiplomadoUASDCodeFirst.Model.DAL
 {
     public class EmpleadoContext : DbContext
