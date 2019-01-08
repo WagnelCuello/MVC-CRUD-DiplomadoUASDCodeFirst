@@ -8,12 +8,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{49DBE783-74E2-4EEE-B894-109D7761F0C8}</ProjectGuid>
+    <ProjectGuid>{7867B405-9434-4B11-8905-5A5A5000500F}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MVC_CRUD_DiplomadoUASDCodeFirst.Web</RootNamespace>
-    <AssemblyName>MVC-CRUD-DiplomadoUASDCodeFirst.Web</AssemblyName>
+    <RootNamespace>MVC_CRUD_BecasoftWeb</RootNamespace>
+    <AssemblyName>MVC_CRUD_BecasoftWeb</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -132,13 +132,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\CursosController.cs" />
-    <Compile Include="Controllers\DepartamentosController.cs" />
-    <Compile Include="Controllers\EmpleadosController.cs" />
-    <Compile Include="Controllers\EstudiantesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\InscripcionesController.cs" />
-    <Compile Include="Controllers\RegistrosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -180,36 +174,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Empleados\Create.cshtml" />
-    <Content Include="Views\Empleados\Delete.cshtml" />
-    <Content Include="Views\Empleados\Details.cshtml" />
-    <Content Include="Views\Empleados\Edit.cshtml" />
-    <Content Include="Views\Empleados\Index.cshtml" />
-    <Content Include="Views\Registros\Create.cshtml" />
-    <Content Include="Views\Registros\Delete.cshtml" />
-    <Content Include="Views\Registros\Details.cshtml" />
-    <Content Include="Views\Registros\Edit.cshtml" />
-    <Content Include="Views\Registros\Index.cshtml" />
-    <Content Include="Views\Departamentos\Create.cshtml" />
-    <Content Include="Views\Departamentos\Delete.cshtml" />
-    <Content Include="Views\Departamentos\Details.cshtml" />
-    <Content Include="Views\Departamentos\Edit.cshtml" />
-    <Content Include="Views\Departamentos\Index.cshtml" />
-    <Content Include="Views\Cursos\Create.cshtml" />
-    <Content Include="Views\Cursos\Delete.cshtml" />
-    <Content Include="Views\Cursos\Details.cshtml" />
-    <Content Include="Views\Cursos\Edit.cshtml" />
-    <Content Include="Views\Cursos\Index.cshtml" />
-    <Content Include="Views\Estudiantes\Create.cshtml" />
-    <Content Include="Views\Estudiantes\Delete.cshtml" />
-    <Content Include="Views\Estudiantes\Details.cshtml" />
-    <Content Include="Views\Estudiantes\Edit.cshtml" />
-    <Content Include="Views\Estudiantes\Index.cshtml" />
-    <Content Include="Views\Inscripciones\Create.cshtml" />
-    <Content Include="Views\Inscripciones\Delete.cshtml" />
-    <Content Include="Views\Inscripciones\Details.cshtml" />
-    <Content Include="Views\Inscripciones\Edit.cshtml" />
-    <Content Include="Views\Inscripciones\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -228,12 +192,6 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MVC-CRUD-DiplomadoUASDCodeFirst.Model\MVC-CRUD-DiplomadoUASDCodeFirst.Model.csproj">
-      <Project>{3fe60932-ddf0-48a6-8d44-2494082a4169}</Project>
-      <Name>MVC-CRUD-DiplomadoUASDCodeFirst.Model</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -250,9 +208,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50281</DevelopmentServerPort>
+          <DevelopmentServerPort>58904</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50281/</IISUrl>
+          <IISUrl>http://localhost:58904/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3FE60932-DDF0-48A6-8D44-2494082A4169}</ProjectGuid>
+    <ProjectGuid>{F2C8BBC3-C195-4BAA-B4CD-788B907ED1C7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MVC_CRUD_DiplomadoUASDCodeFirst.Model</RootNamespace>
-    <AssemblyName>MVC-CRUD-DiplomadoUASDCodeFirst.Model</AssemblyName>
+    <RootNamespace>MVC_CRUD_Becasoft</RootNamespace>
+    <AssemblyName>MVC_CRUD_Becasoft</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -50,19 +50,16 @@
   <ItemGroup>
     <Compile Include="DAL\BecasoftContext.cs" />
     <Compile Include="DAL\CargaDatosDB.cs" />
-    <Compile Include="DAL\EmpleadoContext.cs" />
     <Compile Include="Models\Curso.cs" />
-    <Compile Include="Models\Departamento.cs" />
-    <Compile Include="Models\Empleado.cs" />
     <Compile Include="Models\Estudiante.cs" />
     <Compile Include="Models\Inscripcion.cs" />
-    <Compile Include="Models\Registro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
